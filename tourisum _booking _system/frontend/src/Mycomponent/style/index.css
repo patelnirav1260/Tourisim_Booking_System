@@ -1,0 +1,54 @@
+.crd{
+  width: 20rem;
+}
+
+.card{
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.cnt {
+   
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+
+
+.card img {
+ max-width: 100%;
+ height: auto;
+}
+
+/* Style for card title */
+.card h3 {
+ font-size: 1.5rem;
+ margin: 0;
+}
+
+/* Style for card description */
+.card p {
+ font-size: 1rem;
+ margin: 10px 0;
+}
+
+/* Style for card price */
+.card .price {
+ font-size: 1.25rem;
+ font-weight: bold;
+}   
+
+.card-text {
+  max-height: 100px; /* Adjust the maximum height as needed */
+  overflow: hidden;
+}
+
+.description{
+  height: 15rem;
+}
+
+
+

@@ -1,0 +1,82 @@
+.container{
+    padding: 5% 10%;
+}
+
+.form-control{
+    border-radius: 20px;
+}
+
+.btnsubmit{
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 20px;
+    background: #f5385d;
+}
+
+.link{
+    &:hover {
+        text-decoration: none; 
+      }
+}
+
+.rg-di{
+    color: gray;
+}
+
+.custom-alert {
+    background-color: black;
+    color: white; /* Set text color to be visible on black */
+    border: 1px solid black; /* Add a black border for contrast */
+  }
+
+  .alert{
+    min-height: 100vh !important;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .size{
+    max-width: 50rem;
+  }
+
+  .alert{
+    background-color: rgb(255, 255, 255) !important;
+    color: #2a2929 !important;
+  }
+
+  .close{
+    text-shadow: 0 1px 0 #2a2929 !important;
+  }
+
+
+  /* Define custom styles for the alert boxes */
+.alerte {
+  border: 1px solid #d9534f;
+  background-color: #f2dede;
+  color: #a94442;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+.alerte-danger {
+  border-color: #a76766;
+}
+
+/* Custom style for the success alert */
+.alerte-success {
+  border-color: #5bc0de;
+  background-color: #d9edf7;
+  color: #31708f;
+}
+
+/* Custom style for the required message */
+.required-message {
+  border: 1px solid #f0ad4e;
+  background-color: #fcf8e3;
+  color: #c09853;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
